@@ -1,0 +1,13 @@
+<div class="input-container">
+  <input
+    type="text"
+    [(ngModel)]="url"
+    placeholder="Please enter your URL to generate a barcode below"
+  />
+</div>
+<div class="button-container">
+  <button (click)="generateBarcode()">Generate Barcode</button>
+</div>
+<div class="barcode-section">
+  <img *ngIf="barcodeImage" [src]="barcodeImage" />
+</div>

@@ -1,0 +1,50 @@
+.input-container {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: for some space below the button */
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 25px; /* Rounded edges */
+  outline: none; /* Removes the default focus outline */
+  font-size: 1em;
+  margin-bottom: 20px; /* Space between input and button */
+  width: 80%; /* Adjust width as needed */
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: for some space below the button */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; /* Rounded edges */
+  background-color: #008cba; /* A modern-looking blue */
+  color: #ffffff; /* White text */
+  font-size: 1em;
+  cursor: pointer; /* Hand cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+button:hover {
+  background-color: #005f5f; /* Darker blue on hover */
+}
+
+/* Styles for centering the image */
+.barcode-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Adjust height as needed */
+  width: 50%;
+  border: 2px dashed #008cba; /* Stylish border */
+  margin: auto;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
