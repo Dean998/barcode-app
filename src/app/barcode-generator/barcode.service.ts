@@ -9,7 +9,7 @@ export class BarcodeService {
   constructor(private http: HttpClient) {}
 
   getBarcode(url: string) {
-    return this.http.post(`${environment.API}`, {
+    return this.http.post(`${environment.API}/barcode/generate-qr`, {
       url: url,
     });
   }
