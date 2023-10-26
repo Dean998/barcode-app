@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { BarcodeService } from './barcode.service';
-import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-barcode-generator',
