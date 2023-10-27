@@ -1,27 +1,46 @@
-# BarcodeApp
+# Barcode Generator: Angular Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+Welcome to the Barcode Generator project. This ingenious solution is crafted to convert URLs into QR codes via a dedicated API, effortlessly. The Angular frontend serves as a bridge between users and the API, facilitating a smooth QR code generation experience.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Seamless URL to QR code conversion.
+- Real-time QR code rendering.
+- User-friendly interface for inputting URLs.
+- Direct interaction with the Barcode API for instantaneous QR code generation.
 
-## Code scaffolding
+## Live Demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Experience the live demo of the Barcode Generator on Vercel: [Live Demo](https://barcode-app-iota.vercel.app/)
 
-## Build
+Feel the ease of generating QR codes from URLs without any hassle. Just paste your URL, and voila, your QR code is ready!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Local Setup
 
-## Running unit tests
+If you're interested in testing out the Barcode Generator locally, you'll need to set up both the frontend and backend. Follow the steps below to get started:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Backend Setup
 
-## Running end-to-end tests
+1. Clone the backend repository from [Backend Repo]((https://github.com/Dean998/barcode-api)).
+2. Navigate to the backend directory: `cd barcode-api`.
+3. Install the dependencies: `npm install`.
+4. Start the backend server: `npm start`. The server will start running on `http://localhost:3000`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Frontend Setup
 
-## Further help
+1. Ensure that the backend server is running.
+2. Clone this repository: `git clone https://github.com/Dean998/barcode-app`.
+3. Navigate to the frontend directory: `cd barcode-app`.
+4. Install the dependencies: `npm install`.
+5. Start the Angular app: `ng serve`. The app will start running on `http://localhost:4200`.
+6. Open your browser and navigate to `http://localhost:4200` to start generating QR codes from URLs!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribution
+
+Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback is highly appreciated!
+
+---
+
+Craft your URLs into QR codes with Barcode Generator and bridge the digital divide effortlessly!
+
+---
